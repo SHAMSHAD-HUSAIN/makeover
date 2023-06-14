@@ -1,0 +1,31 @@
+ background-color: #6ed2d299;
+  background-color: #f6f9f9;
+
+  <div class="col-12 col-lg-5 imgsize">
+    
+    
+    </div>
+
+
+
+
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="images/Eteam/im13.jpg" class="d-block w-100  team-img-height" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <h5 class="fs-1 fw-bold ">Mary Lucas
+            </h5>
+            <p>Founder, Senior Esthetician</p>
+          </div>
+        </div>
+
+
+         <div class="text-our-team">
+    <h1 class="fs-1 fw-bold text-our-team">Our Professional Team</h1>
+    
+    <p>We employ the best experts in the beauty industry and educate
+       our own award-winning specialists through <br> training.
+        Here are the most prominent talents of our team who make your beauty dreams come true.
+      Ann WilliamsVisagiste Karen York Cosmetologist Mary Lucas Founder, Senior Esthetician Ann Butler
+      Manicurist</p>
+    </div>

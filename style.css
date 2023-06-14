@@ -1,0 +1,404 @@
+/*navbar*/
+*{
+   font-family:Montserrat;
+}
+.navbar{
+    
+
+    /* background-color: transparent; */
+    z-index: 100; 
+    transition: 1s;
+    
+}
+#navbar{
+    background: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-logo-img{
+   
+    /* background-color: blueviolet; */
+width: 20%;
+}
+
+.contact-header{
+    /* background-color: chartreuse; */
+    flex-direction: row;
+    width: auto;
+}
+.contact-header a{
+
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    }
+
+
+
+             /*ammakeover*/
+
+    #makeover{
+       
+        height: auto;
+        width: 80%;
+
+    }
+    @media only screen and (min-width:768px){
+        /* .contact-header{
+            font-size: 2rem;
+        } */
+        #makeover{
+       
+            height: auto;
+            width: 40%;
+    
+        }
+      
+    }
+ /* navvar end*/
+
+
+
+ /*carouselstart*/
+    /* #slider1{
+        margin-top: -50px;
+    } */
+
+/* .section-2{
+    z-index: -100;
+} */
+ 
+#text1{
+    color:black;
+}
+
+@media only screen and (max-width:500px){
+    .img-carousel{
+        height: 240px;
+}
+
+}
+/* @media only screen and (max-width:500px){
+    .img-carousel{
+        height: 350px;
+}
+
+} */
+
+/*endcarouselstart*/
+
+
+
+
+/*start container row-col why our client choose us*/
+
+#bg-container{
+    background-color:  #f6f9f9;
+}
+
+
+
+
+@media only screen and (max-width:340px){
+   
+    .row-text{
+        font-size: 14px;
+    }
+
+
+}
+
+/*endcontainer row col why our client choose us*/
+
+
+
+
+/*start services*/
+.round-div{
+    width: 80px;
+    height: 80px;
+    margin:0 auto;
+
+}
+
+
+
+
+/*end srvices*/
+
+
+
+/* start courses part */
+
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+     }
+
+
+
+     .nancy{
+        margin-bottom: 13px;
+    }
+    .nancy-text h3{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.38333;
+        margin-bottom: 25px;
+    }
+    
+    .nancy span{
+        color:#002147;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #thumb-span img{
+        
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: rgba(253, 200, 0, 0.2);
+            display: inline-block;
+            margin-right: 7px;
+            box-shadow: 0px 1px 10px #c1bfbf;
+    }
+
+
+    .single-course-inner {
+      border-radius: 7px;
+      border: 1px solid #F1F1F1;
+      position: relative;
+      transition: 0.4s;
+  }
+  .details .nancy-text{
+      padding: 20px 20px 16px;
+      font-size: 16px;
+      line-height: 1.383;
+      font-weight: 700;
+  }
+  
+  .rating-price{
+      border-top: 1px solid #F1F1F1;
+      padding: 14px 20px;
+      font-weight: 500;
+
+  }
+  .rating-price .row{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-right: -25px;
+      margin-left: -20px;
+  }
+  .rating-price .row .col-7{
+    padding: 0px 15px 0px 15px ;
+  }
+  .rating-price .row .text-right{
+      text-align: end;
+  }
+  .rating-price .rating{
+      color:black;
+      margin-right: -21px;
+  }
+  .rating span {
+      font-size: 15px;
+      color: rgba(13, 16, 52, 0.5);
+  }
+      .price {
+          color: black;
+      }
+      .price span{
+          color:#002147;
+      }
+/* end couses part */
+
+
+/*start work container with carousel*/
+
+
+
+.workcontainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f6f9f9;
+}
+
+
+
+
+/*end work container with carousel-->*/
+
+
+
+
+/*start team part*/
+/* .imgteam-member{
+    height: 450px;
+}
+#team-name h1  {
+color: white;
+}
+#team-name p {
+    color: white;
+    } */
+ 
+    
+          /*endteam */
+          
+
+/*--start portfolio part-->*/
+
+.portfolio-img{
+    
+    margin-bottom: 20px;
+    }
+    .portfolio-img img{
+        transition: all 0.3s linear;
+    
+    }
+    .portfolio-img:hover img{
+       transform:scale(1.1) ;
+    
+    }
+
+
+
+
+
+
+
+/*-end portfolio part-->*/
+
+
+
+
+
+
+/* start client part */
+.client-carousel{
+    /* background-color: red; */
+    box-shadow: darkgray;
+    height: auto;
+    border:1px solid cadetblue;
+}
+.client-imgdiv{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: blue; */
+
+}
+/* .client-testimonial{
+    background-color: chartreuse;
+} */
+
+.client-imgheight{
+margin: 0 auto;
+    border-radius: 50%;
+    height: 150px;
+
+}
+
+.client-rowdiv{
+    background-color: #f6f9f9;
+    margin-bottom: 10px;
+} 
+.icon-arrow{
+    color:black;
+}
+/* .client{
+background-color: cornflowerblue;
+
+} */
+
+/* end client part */
+
+
+
+
+
+
+/* start footer */
+
+.footercontainer{
+    justify-content: center;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: black;
+
+}
+/* .footer{
+} */
+.contacticon{
+    font-size: 20px;
+
+}
+
+#socialheading{
+    text-align: center;
+}
+
+.contact-Us-icons a,.colfooter {
+   
+    
+       text-decoration: none;
+    color:white;
+}
+.contact-Us-icons a i{
+    transition: all 0.3s linear;
+
+}
+.contact-Us-icons a:hover i{
+   font-size: 30px;
+
+}
+
+ 
+
+.allsocial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allsocial a{
+    height: 50px;
+    width: 50px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 8px;
+    box-shadow: 1px 4x 2px 2px #19d4bb;
+    line-height: 60px;
+}
+.allsocial a i{
+    transition: all 0.3s linear;
+}
+.allsocial a:hover i{
+    transform: scale(1.4)
+    
+}
+
+#instagram {
+    color: #e84393;
+}
+
+.fa-youtube{
+    color:#e84118;
+} 
+@media only screen and (max-width:768px){
+   .colfooter h3 ,.colfooter p,.contact-Us-icons{
+       justify-content: center;
+       text-align: center;
+   }
+  
+   #followus{
+       padding-top: 20px;
+   }
+   
+}
+
+/* endfooter */
